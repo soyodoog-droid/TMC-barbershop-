@@ -1,0 +1,121 @@
+:root{
+  --max-width:1100px;
+  --accent:#c4c4c4;          /* brushed steel */
+  --dark:#0c0c0c;            /* matte black */
+  --dark2:#1a1a1a;
+  --light:#ffffff;
+  --muted:#888;
+  --radius:12px;
+  --gap:20px;
+  font-family: "Inter", system-ui, sans-serif;
+  box-sizing:border-box;
+}
+*{box-sizing:inherit}
+body{
+  margin:0;
+  background:#f2f2f2;
+  color:var(--dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* HEADER */
+.site-header{
+  background:var(--dark);
+  color:white;
+  padding:14px 0;
+  border-bottom:2px solid var(--accent);
+  position:sticky;
+  top:0;
+  z-index:50;
+}
+.brand{
+  font-weight:700;
+  color:white;
+  text-decoration:none;
+  letter-spacing:1px;
+  font-size:1.1rem;
+}
+.primary-nav a{
+  color:#e5e5e5;
+  text-decoration:none;
+  padding:8px;
+  border-radius:6px;
+}
+.primary-nav a:hover{
+  background:var(--dark2);
+}
+
+/* HERO */
+.hero{
+  background:var(--dark);
+  color:white;
+  padding:80px 0;
+  border-bottom:3px solid var(--accent);
+}
+.hero h1{
+  margin:0 0 12px;
+  font-size:2.4rem;
+}
+.lead{
+  color:#d0d0d0;
+}
+.btn.primary{
+  background:var(--accent);
+  color:var(--dark);
+  border:none;
+}
+.btn.ghost{
+  border:1px solid var(--accent);
+  color:var(--accent);
+}
+
+/* SECTIONS */
+.section{
+  padding:60px 0;
+}
+.section h2{
+  margin:0 0 10px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+.section-sub{
+  color:var(--muted);
+  margin-bottom:24px;
+}
+
+.section.alt{
+  background:#fff;
+  border-top:2px solid #e0e0e0;
+  border-bottom:2px solid #e0e0e0;
+}
+
+/* CARDS */
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  border-left:4px solid var(--accent);
+  box-shadow:0 4px 14px rgba(0,0,0,0.06);
+}
+
+/* CONTACT FORM */
+.form input,
+.form textarea{
+  padding:12px;
+  border-radius:6px;
+  background:#fafafa;
+  border:1px solid #ccc;
+}
+.btn.primary:hover{
+  opacity:.9;
+}
+
+/* FOOTER */
+.site-footer{
+  background:var(--dark);
+  color:#e5e5e5;
+  text-align:center;
+  padding:20px 0;
+  margin-top:40px;
+  border-top:2px solid var(--accent);
+}

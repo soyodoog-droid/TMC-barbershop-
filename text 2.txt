@@ -1,0 +1,14 @@
+<section id="home" class="hero hero-img">
+  <div class="hero-overlay">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Welcome to TMC Barbershop</h1>
+        <p class="lead">Sharp fades, clean cuts, and professional grooming — the look you deserve.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#contact">Book an Appointment</a>
+          <a class="btn ghost" href="#services">Our Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
